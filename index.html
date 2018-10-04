@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/tabsStyles.css">
+    <link rel="stylesheet" href="css/resultStyle.css">
   </head>
   <body>
 
@@ -30,9 +31,6 @@
       <br>
       <button type="button" class="goBackButton">Go back</button>
       <button type="button" id="readButton">Decrypt</button>
-      <div class="app-result read-result">
-        <p></p>
-      </div>
     </div>
 
     <div class="tab create-message">
@@ -42,8 +40,13 @@
       <br>
       <button type="button" class="goBackButton">Go back</button>
       <button type="button" id="createButton">Encrypt</button>
-      <div class="app-result create-result">
-        <p></p>
+    </div>
+
+    <div class="app-result">
+      <div class="close">&times;</div>
+      <div class="">
+        <p>Your message is: </p>
+        <p class="result"></p>
       </div>
     </div>
 
