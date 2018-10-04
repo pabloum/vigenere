@@ -25,8 +25,8 @@
 
     <div class="tab read-message">
       <h2>Read a message </h2>
-      <textarea placeholder="Enter the message you want to decrypt" cols="40"></textarea>
-      <input type="text" name="password" placeholder="Enter the password">
+      <textarea id="readMessage" placeholder="Enter the message you want to decrypt" cols="40"></textarea>
+      <input id="readPassword" type="text" name="password" placeholder="Enter the password">
       <br>
       <button type="button" class="goBackButton">Go back</button>
       <button type="button" id="readButton">Decrypt</button>
@@ -37,8 +37,8 @@
 
     <div class="tab create-message">
       <h2>Create a message</h2>
-      <textarea placeholder="Enter the message you want to encrypt" cols="40"></textarea>
-      <input type="text" name="password" placeholder="Enter the password">
+      <textarea id="createMessage" placeholder="Enter the message you want to encrypt" cols="40"></textarea>
+      <input id="createPassword" type="text" name="password" placeholder="Enter the password">
       <br>
       <button type="button" class="goBackButton">Go back</button>
       <button type="button" id="createButton">Encrypt</button>
@@ -49,5 +49,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/readLogic.js"></script>
+    <script type="text/javascript" src="js/createLogic.js"></script>
+    <script type="text/javascript" src="js/vigenere.js"></script>
   </body>
 </html>

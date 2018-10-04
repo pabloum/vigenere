@@ -10,11 +10,23 @@ $(document).ready(function() {
 
 
 function readMessage() {
-  $('.read-result').html('message read');
+  var message = document.getElementById('readMessage').value;
+  var password = document.getElementById('readPassword').value;
+  var result;
+
+  result = readAlgorithm(message, password);
+
+  $('.read-result').html(result);
 }
 
 function createMessage() {
-  $('.create-result').html('message created');
+  var message = document.getElementById('createMessage').value;
+  var password = document.getElementById('createPassword').value;
+  var result;
+
+  result = createAlgorithm(message, password);
+
+  $('.create-result').html(result);
 }
 
 function showReadInput() {
