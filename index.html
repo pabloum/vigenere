@@ -24,10 +24,13 @@
     </div>
 
     <div class="tab read-message">
-      <h2>Read a message</h2>
+      <h2>Read a message </h2>
       <textarea placeholder="Enter the message you want to decrypt" cols="40"></textarea>
       <input type="text" name="password" placeholder="Enter the password">
-      <div class="app-result">
+      <br>
+      <button type="button" class="goBackButton">Go back</button>
+      <button type="button" id="readButton">Decrypt</button>
+      <div class="app-result read-result">
         <p></p>
       </div>
     </div>
@@ -36,7 +39,10 @@
       <h2>Create a message</h2>
       <textarea placeholder="Enter the message you want to encrypt" cols="40"></textarea>
       <input type="text" name="password" placeholder="Enter the password">
-      <div class="app-result">
+      <br>
+      <button type="button" class="goBackButton">Go back</button>
+      <button type="button" id="createButton">Encrypt</button>
+      <div class="app-result create-result">
         <p></p>
       </div>
     </div>
