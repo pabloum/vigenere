@@ -1,0 +1,53 @@
+body {
+  background: rgb(42, 42, 42);
+  background-size: cover;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+#home {
+  background: rgb(0, 0, 153);
+  position: relative;
+  margin: -23px -8px 2px -8px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#home .link {
+  border: solid white;
+  width: 330px;
+  margin: 5px auto;
+  margin-bottom: 5%;
+}
+
+#home h1 {
+  color: rgb(235, 106, 014);
+  margin-top: 5%;
+}
+
+#home a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.container-options {
+  margin: 18% auto;
+  width: 540px;
+  height: 40px;
+  padding: 10px;
+}
+
+.option {
+  display: inline-block;
+  border: solid white;
+  margin: 30px 20px;
+  width: 200px;
+  height: auto;
+  padding: 8px;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+}

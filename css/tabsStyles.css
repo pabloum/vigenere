@@ -1,0 +1,25 @@
+.tab {
+  display: none;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.tab h2{
+  color: rgb(102, 153, 255);
+}
+
+.tab textarea {
+  padding-left: 2px;
+  padding-top: 25px;
+  height: 40px;
+  margin-right: 30px;
+  margin-left: -150px;
+}
+
+.tab input {
+  width: 130px;
+  height: 58px;
+  padding: 2px;
+  position: absolute;
+}

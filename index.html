@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vigènere cipher</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/tabsStyles.css">
+  </head>
+  <body>
+
+    <div id="home">
+      <h1>Vigènere Cipher</h1>
+      <div class="link">
+        <a href="https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher" target="_blank">Information about the cipher</a>
+      </div>
+    </div>
+
+    <div class="container-options">
+      <div class="option read">Read a message</div>
+      <div class="option create">Create a message</div>
+    </div>
+
+    <div class="tab read-message">
+      <h2>Read a message</h2>
+      <textarea placeholder="Enter the message you want to decrypt" cols="40"></textarea>
+      <input type="text" name="password" placeholder="Enter the password">
+      <div class="app-result">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="tab create-message">
+      <h2>Create a message</h2>
+      <textarea placeholder="Enter the message you want to encrypt" cols="40"></textarea>
+      <input type="text" name="password" placeholder="Enter the password">
+      <div class="app-result">
+        <p></p>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
