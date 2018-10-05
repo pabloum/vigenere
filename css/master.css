@@ -51,3 +51,19 @@ body {
   text-align: center;
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  body {
+    font-size: 34px;
+  }
+
+  .option, h2, button {
+    font-size: 32px;
+  }
+
+  .tab textarea, input {
+    font-size: 24px;
+    font-style: italic;
+  }
+
+}
