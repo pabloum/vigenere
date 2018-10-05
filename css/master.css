@@ -54,12 +54,16 @@ body {
 
 @media (max-width: 992px) {
   body {
-    /* transform: scale(1.4); */
     font-size: 34px;
   }
 
-  textarea, input, h2, button {
-    font-size: 28px;
+  .option, h2, button {
+    font-size: 32px;
+  }
+
+  .tab textarea, input {
+    font-size: 24px;
+    font-style: italic;
   }
 
 }
